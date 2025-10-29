@@ -1,0 +1,35 @@
+[27-Oct-2025 13:31:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dboci5dz2ixzo8`.`payments`, CONSTRAINT `payments_ibfk_3` FOREIGN KEY (`freelancer_id`) REFERENCES `users` (`id`)) in /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/payment.php:37
+Stack trace:
+#0 /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/payment.php(37): mysqli->query('INSERT INTO pay...')
+#1 {main}
+  thrown in /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/payment.php on line 37
+[27-Oct-2025 13:31:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dboci5dz2ixzo8`.`messages`, CONSTRAINT `messages_ibfk_2` FOREIGN KEY (`receiver_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php:39
+Stack trace:
+#0 /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php(39): mysqli->query('INSERT INTO mes...')
+#1 {main}
+  thrown in /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php on line 39
+[27-Oct-2025 13:31:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dboci5dz2ixzo8`.`messages`, CONSTRAINT `messages_ibfk_2` FOREIGN KEY (`receiver_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php:39
+Stack trace:
+#0 /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php(39): mysqli->query('INSERT INTO mes...')
+#1 {main}
+  thrown in /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php on line 39
+[27-Oct-2025 13:33:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dboci5dz2ixzo8`.`messages`, CONSTRAINT `messages_ibfk_2` FOREIGN KEY (`receiver_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php:39
+Stack trace:
+#0 /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php(39): mysqli->query('INSERT INTO mes...')
+#1 {main}
+  thrown in /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php on line 39
+[27-Oct-2025 13:33:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dboci5dz2ixzo8`.`messages`, CONSTRAINT `messages_ibfk_2` FOREIGN KEY (`receiver_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php:39
+Stack trace:
+#0 /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php(39): mysqli->query('INSERT INTO mes...')
+#1 {main}
+  thrown in /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php on line 39
+[27-Oct-2025 13:36:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dboci5dz2ixzo8`.`messages`, CONSTRAINT `messages_ibfk_2` FOREIGN KEY (`receiver_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php:48
+Stack trace:
+#0 /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php(48): mysqli->query('INSERT INTO mes...')
+#1 {main}
+  thrown in /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php on line 48
+[27-Oct-2025 13:37:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dboci5dz2ixzo8`.`messages`, CONSTRAINT `messages_ibfk_2` FOREIGN KEY (`receiver_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php:48
+Stack trace:
+#0 /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php(48): mysqli->query('INSERT INTO mes...')
+#1 {main}
+  thrown in /home/customer/www/rsoa17.digitalliteracy.school/public_html/PEOPLEPERHOUR/messages.php on line 48
